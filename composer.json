@@ -1,0 +1,29 @@
+{
+    "name": "wei",
+    "description": "the fastest admin framework",
+    "type": "project",
+    "keywords": [
+        "fastadmin",
+        "thinkphp"
+    ],
+    "homepage": "http://www.wei.net/",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Karson",
+            "email": "karsonzhang@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "topthink/framework": "~5.0.14", 
+        "endroid/qr-code": "^1.9", 
+        "mtdowling/cron-expression": "^1.2", 
+        "yansongda/pay": "^2.4",
+		"symfony/polyfill-mbstring": "~1.1",
+        "symfony/polyfill-php70": "~1.6"
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}
